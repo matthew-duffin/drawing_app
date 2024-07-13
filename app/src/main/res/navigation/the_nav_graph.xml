@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/the_nav_graph.xml"
+    app:startDestination="@id/firebaseFragment">
+
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="com.example.drawingapp.MenuFragment"
+        tools:layout="@layout/fragment_menu"
+        android:label="fragment_menu">
+        <action
+            android:id="@+id/selectImage"
+            app:destination="@id/CanvasFragment" />
+        <action
+            android:id="@+id/action_MenuFragment_to_firebaseFragment"
+            app:destination="@id/firebaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CanvasFragment"
+        android:name="com.example.drawingapp.CanvasFragment"
+        tools:layout="@layout/fragment_canvas"
+        android:label="fragment_canvas">
+        <action
+            android:id="@+id/accessImageMenu"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firebaseFragment"
+        android:name="com.example.drawingapp.FirebaseFragment"
+        android:label="fragment_firebase"
+        tools:layout="@layout/fragment_firebase" >
+        <action
+            android:id="@+id/action_firebaseFragment_to_CanvasFragment"
+            app:destination="@id/CanvasFragment" />
+    </fragment>
+</navigation>

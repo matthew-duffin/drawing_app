@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bitmapWidth">411dp</dimen>
+    <dimen name="bitmapHeight">411dp</dimen>
+
+</resources>

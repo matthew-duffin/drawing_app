@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Matthew Duffin\\AndroidStudioProjects\\drawing_app\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Matthew Duffin\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Matthew Duffin\\AndroidStudioProjects\\drawing_app\\app\\.cxx\\Debug\\6wf1k68d\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Matthew Duffin\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Matthew Duffin\\AndroidStudioProjects\\drawing_app\\app\\.cxx\\Debug\\6wf1k68d\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "drawingapp::@6890427a1f51a3e7e1df": {
+      "artifactName": "drawingapp",
+      "abi": "x86",
+      "output": "C:\\Users\\Matthew Duffin\\AndroidStudioProjects\\drawing_app\\app\\build\\intermediates\\cxx\\Debug\\6wf1k68d\\obj\\x86\\libdrawingapp.so",
+      "runtimeFiles": []
+    }
+  }
+}

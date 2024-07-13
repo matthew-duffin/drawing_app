@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanvasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="382dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/saveButton"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_menu_save" />
+
+                <ImageButton
+                    android:id="@+id/loadButton"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/file" />
+
+                <ImageButton
+                    android:id="@+id/shareFirebaseButton"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_menu_gallery" />
+
+                <Button
+                    android:id="@+id/invertBitmapButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="INVERT"
+                    android:textColor="@color/black"
+                    android:textSize="10.5sp" />
+
+                <Button
+                    android:id="@+id/saturateButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="SATURATE"
+                    android:textColor="@color/black"
+                    android:textSize="10.5sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/penButton"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <ImageButton
+                    android:id="@+id/eraserButton"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/img_1" />
+
+                <ImageButton
+                    android:id="@+id/squareButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="?android:attr/listChoiceIndicatorMultiple" />
+
+                <ImageButton
+                    android:id="@+id/circleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="?android:attr/listChoiceIndicatorSingle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pixelSizeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Brush Size:"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <SeekBar
+                    android:id="@+id/penSize"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="280dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:max="5"
+                    android:progress="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.skydoves.colorpickerview.ColorPickerView
+                    android:id="@+id/colorPickerView"
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    app:initialColor="@color/black" />
+            </LinearLayout>
+
+            <com.skydoves.colorpickerview.sliders.BrightnessSlideBar
+                android:id="@+id/brightnessSlideBar"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:borderColor_BrightnessSlider="@android:color/darker_gray"
+                app:borderSize_BrightnessSlider="5"
+                app:selector_BrightnessSlider="@drawable/colorpickerview_wheel" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/canvasView"
+            android:layout_width="393dp"
+            android:layout_height="393dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/screen_background_dark_transparent" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,3 @@
+C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/.cxx/Debug/1w6i4u2t/x86/CMakeFiles/drawingapp.dir
+C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/.cxx/Debug/1w6i4u2t/x86/CMakeFiles/edit_cache.dir
+C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/.cxx/Debug/1w6i4u2t/x86/CMakeFiles/rebuild_cache.dir

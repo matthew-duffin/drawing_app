@@ -1,0 +1,23 @@
+# ninja log v5
+0	457	7349402798577691	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+459	570	7349402799737671	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+1	726	7349424338658549	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+726	865	7349424340118552	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+2	308	7349426174963514	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+309	394	7349426175858511	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+2	269	7349431091643737	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+270	360	7349431092613756	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+2	253	7349431623233212	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+254	331	7349431624018213	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+2	254	7349431865538540	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+254	345	7349431866453543	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+1	285	7349432016329519	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+285	368	7349432017249518	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+1	274	7349432452208564	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+274	358	7349432453088553	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+2	376	7349438278166740	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+376	515	7349438279596741	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+2	278	7349439337323714	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+279	370	7349439338263727	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424
+1	274	7349440450713807	CMakeFiles/drawingapp.dir/drawingapp.cpp.o	53c3faa4d8d27dd
+275	357	7349440451573809	C:/Users/Matthew Duffin/AndroidStudioProjects/android-drawing-project-future-layoffs/app/build/intermediates/cxx/Debug/1w6i4u2t/obj/x86_64/libdrawingapp.so	6e02eacbee511424

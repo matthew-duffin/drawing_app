@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Matthew Duffin/AndroidStudioProjects/drawing_app/app/.cxx/Debug/6wf1k68d/x86_64",
+  "command": "C:\\Users\\MATTHE~1\\AppData\\Local\\Android\\Sdk\\ndk\\251~1.893\\TOOLCH~1\\llvm\\prebuilt\\WINDOW~1\\bin\\CLANG_~1.EXE --target=x86_64-none-linux-android33 --sysroot=\"C:/Users/Matthew Duffin/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot\" -Ddrawingapp_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\drawingapp.dir\\drawingapp.cpp.o -c \"C:\\Users\\Matthew Duffin\\AndroidStudioProjects\\drawing_app\\app\\src\\main\\cpp\\drawingapp.cpp\"",
+  "file": "C:\\Users\\Matthew Duffin\\AndroidStudioProjects\\drawing_app\\app\\src\\main\\cpp\\drawingapp.cpp"
+}
+]

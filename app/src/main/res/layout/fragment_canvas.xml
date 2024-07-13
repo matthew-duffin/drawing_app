@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanvasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_save" />
+
+            <ImageButton
+                android:id="@+id/loadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/file" />
+
+            <ImageButton
+                android:id="@+id/shareFirebaseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/canvasView"
+            android:layout_width="393dp"
+            android:layout_height="393dp"
+            android:src="@android:drawable/screen_background_light_transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pixelSizeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Brush Size:"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <SeekBar
+                    android:id="@+id/penSize"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="280dp"
+                    android:layout_height="42dp"
+                    android:max="5"
+                    android:progress="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/brush_adjustment"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:orientation="horizontal">
+
+                <com.skydoves.colorpickerview.ColorPickerView
+                    android:id="@+id/colorPickerView"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    app:initialColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/brush_tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="69dp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/penButton"
+                            android:layout_width="113dp"
+                            android:layout_height="50dp"
+                            android:src="@android:drawable/ic_menu_edit" />
+
+                        <ImageButton
+                            android:id="@+id/eraserButton"
+                            android:layout_width="113dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/img_1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/brush_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="72dp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/circleButton"
+                            android:layout_width="93dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="?android:attr/listChoiceIndicatorSingle" />
+
+                        <ImageButton
+                            android:id="@+id/squareButton"
+                            android:layout_width="93dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="?android:attr/listChoiceIndicatorMultiple" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/brush_functions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/saturateButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@android:color/background_light"
+                            android:text="SATURATE"
+                            android:textColor="@android:color/black" />
+
+                        <Button
+                            android:id="@+id/invertBitmapButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@android:color/background_light"
+                            android:text="INVERT"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.skydoves.colorpickerview.sliders.BrightnessSlideBar
+                android:id="@+id/brightnessSlideBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="1"
+                app:borderColor_BrightnessSlider="@android:color/darker_gray"
+                app:borderSize_BrightnessSlider="5"
+                app:selector_BrightnessSlider="@drawable/colorpickerview_wheel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
